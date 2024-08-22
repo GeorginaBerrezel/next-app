@@ -1,10 +1,23 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function Home() {
+const Home = () => {
+  const toto = "toto"
+  const getRandomNumber = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  };
+
+// Exemple d'utilisation
+  let randomNum = getRandomNumber(1, 100);
+  console.log(randomNum);
+
+
   return (
       <main className={styles.main}>
         <div className={styles.description}>
+          <p>{toto}</p>
+          <p>{randomNum}</p>
+
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>src/app/page.js</code>
@@ -37,7 +50,7 @@ export default function Home() {
         <div className={styles.center}>
           <Image
               className={styles.logo}
-              src="/next.svg"
+              src="/image.png"
               alt="cat dev"
               width={180}
               height={180}
@@ -99,3 +112,5 @@ export default function Home() {
       </main>
   );
 }
+
+export default Home;
