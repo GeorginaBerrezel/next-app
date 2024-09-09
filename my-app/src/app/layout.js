@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import { Links } from '@/app/ui/nav-link'; // Correction du nom du composant
-import "./globals.css";
+import "./styles/globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
