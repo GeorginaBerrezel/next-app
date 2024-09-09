@@ -1,0 +1,21 @@
+// src/styles/_variables.scss
+
+$color-primary: #E07A5F;  // Rouge Terracotta
+$color-secondary: #81B29A;  // Vert Sauge
+$color-background: #F4F1DE;  // Crème Doux
+$color-text: #6c757d;  // Gris pour les textes
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-button-hover: #D67A50;  // Teinte légèrement plus foncée du rouge terracotta
+$color-button-active: #C76A40;  // Teinte encore plus foncée
+
+$color-link: #81B29A;
+$color-link-hover: #6A9A7A;  // Teinte légèrement plus foncée du vert sauge
+
+// Breakpoints
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 1024px;
+$breakpoint-lg: 1280px;
+$breakpoint-xl: 1440px;

@@ -1,0 +1,19 @@
+.list {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+/* Ajoute une classe locale pour le style du nav */
+.nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+.title {
+    color: #333;
+}
+
+.subtitle {
+    color: #555;
+}

@@ -1,9 +1,11 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import Link from 'next/link';
+import styles from "./page.module.scss";
 
 export default function Home() {
   return (
       <main className={styles.main}>
+        <Link href="/list">list</Link>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
