@@ -1,3 +1,4 @@
+/*
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -14,4 +15,18 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>{children}</body>
     </html>
   );
+}
+*/
+
+import { NavLinks } from '@/app/ui/nav-links'
+
+export default function Layout({ children }) {
+    return (
+        <html lang="en">
+        <body>
+        <NavLinks />
+        <main>{children}</main>
+        </body>
+        </html>
+    )
 }
