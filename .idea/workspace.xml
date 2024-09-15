@@ -34,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Routing",
-    "last_opened_file_path": "/Users/georginaberrezel/Desktop/App/next-app/my-app/public",
+    "last_opened_file_path": "/Users/georginaberrezel/Desktop/App/next-app/.idea",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +45,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
+      <recent name="$PROJECT_DIR$/my-app" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/my-app/public" />
     </key>
   </component>
@@ -57,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724347700732</updated>
       <workItem from="1724347701780" duration="5140000" />
-      <workItem from="1726419895904" duration="361000" />
+      <workItem from="1726419895904" duration="1297000" />
     </task>
     <servers />
   </component>
